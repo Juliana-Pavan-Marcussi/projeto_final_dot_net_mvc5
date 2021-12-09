@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CrudMvc",
+    "\\CrudMvc\\Controllers",
+    "\\CrudMvc\\Models",
+    "\\CrudMvc\\Models\\ViewModels",
+    "\\CrudMvc\\Views",
+    "\\CrudMvc\\Views\\Departments"
+  ],
+  "SelectedNode": "\\CrudMvc\\Controllers\\DepartmentsController.cs",
+  "PreviewInSolutionExplorer": false
+}

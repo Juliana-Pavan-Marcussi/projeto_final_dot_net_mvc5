@@ -1,0 +1,33 @@
+@model IEnumerable<CrudMvc.Models.Department>
+
+
+	@{
+	ViewData["Title"]="Departments";
+
+	}
+
+	<h2>Departments</h2>
+
+	<p>
+		<a asp-action="Create">Create New</a>
+	</p>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>
+					@Html.DisplayNameFor(model => model.Id)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Name)
+				</th>
+				<th></th>				
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model){
+			<tr>		
+				
+			</tr>
+			}
+		</tbody>
+</table>
