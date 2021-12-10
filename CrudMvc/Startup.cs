@@ -9,6 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using CrudMvc.Data;
 
 namespace CrudMvc
 {
@@ -33,6 +35,10 @@ namespace CrudMvc
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<CrudMvcContext>(options =>
+                    options.UseMySql(Configuration.GetConnectionString("CrudMvcContext"), builder => 
+                    builder.MigrationsAssembly("CrudMvc")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
