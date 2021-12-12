@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "36IvJyEVGzvhkhlWyAW25aPbi9rtuVhj70NvQFrYcqV5XzpcxNbEYSHTw0p4tMFmEJfapkTyQ9C0ju0g4GeG3Q==",
+  "dgSpecHash": "xL5gi46TNqdld085mSdbP1+DKfLEZul6I0WHE/+lh3gNmr8sG47bagVCzXSCX+ghSVTawwd1CxudQTD/J9fL2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\jupav\\OneDrive\\Área de Trabalho\\Curso C#\\projeto_final_dot_net_mvc5\\CrudMvc\\CrudMvc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jupav\\.nuget\\packages\\bootstrap\\3.0.0\\bootstrap.3.0.0.nupkg.sha512",
+    "C:\\Users\\jupav\\.nuget\\packages\\jquery\\1.9.0\\jquery.1.9.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\jupav\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",

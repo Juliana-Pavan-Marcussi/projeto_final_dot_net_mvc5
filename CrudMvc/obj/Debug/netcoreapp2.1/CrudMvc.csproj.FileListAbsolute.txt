@@ -39,3 +39,11 @@ C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\Cr
 C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments1\Details.cshtml.g.cs
 C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments1\Edit.cshtml.g.cs
 C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments1\Index.cshtml.g.cs
+C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Index.cshtml.g.cs
+C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Create.cshtml.g.cs
+C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Delete.cshtml.g.cs
+C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Details.cshtml.g.cs
+C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Edit.cshtml.g.cs
+C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\GroupingSearch.cshtml.g.cs
+C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\Index.cshtml.g.cs
+C:\Users\jupav\OneDrive\Área de Trabalho\Curso C#\projeto_final_dot_net_mvc5\CrudMvc\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\SimpleSearch.cshtml.g.cs

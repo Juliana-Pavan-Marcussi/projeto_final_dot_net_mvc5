@@ -1,22 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+	  <LangVersion>8.0</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Views\Departments\**" />
     <Compile Remove="Views\NovaPasta1\**" />
-    <Compile Remove="Views\NovaPasta\**" />
     <Content Remove="Views\Departments\**" />
     <Content Remove="Views\NovaPasta1\**" />
-    <Content Remove="Views\NovaPasta\**" />
     <EmbeddedResource Remove="Views\Departments\**" />
     <EmbeddedResource Remove="Views\NovaPasta1\**" />
-    <EmbeddedResource Remove="Views\NovaPasta\**" />
     <None Remove="Views\Departments\**" />
     <None Remove="Views\NovaPasta1\**" />
-    <None Remove="Views\NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="bootstrap" Version="3.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.7" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />

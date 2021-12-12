@@ -11,6 +11,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using CrudMvc.Data;
+using CrudMvc.Services;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 
 namespace CrudMvc
 {
@@ -39,14 +42,34 @@ namespace CrudMvc
             services.AddDbContext<CrudMvcContext>(options =>
                     options.UseMySql(Configuration.GetConnectionString("CrudMvcContext"), builder => 
                     builder.MigrationsAssembly("CrudMvc")));
+
+            services.AddScoped<SeedingService>();
+
+            services.AddScoped<SellerService>();
+
+            services.AddScoped<DepartmentService>();
+
+            services.AddScoped<SalesRecordService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, SeedingService seedingService)
         {
+
+            var enUs = new CultureInfo("en-US");
+            var localizationOptions = new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture(enUs),
+                SupportedCultures = new List<CultureInfo> { enUs },
+                SupportedUICultures = new List<CultureInfo> { enUs },
+            };
+
+            app.UseRequestLocalization(localizationOptions);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                seedingService.Seed();
             }
             else
             {
